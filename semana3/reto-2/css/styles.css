@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%)
+}
+
+.box{
+    border-radius: 25px;
+    background-color: white;
+    padding: 15px;
+    width: 20%;
+    text-align: left;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.title{
+    margin-top: 25px;
+    color: hsl(0, 0%, 100%);
+}
+
+.text-description{
+    color: hsl(215, 51%, 70%);
+    margin-right: 5px;
+    margin-left:  7px;
+}
+
+.description{
+    
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.medicion{
+    color: hsl(178, 100%, 50%);
+}
+
+.name-creator{
+    color: white;
+    font-weight: bold;
+}
+
+.description-3{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.icono-2{
+    justify-content: end;
+    align-items: end;
+}
+.profile{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.img-profile{
+    width: 10%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.mr-bottom{
+    margin-bottom: 10px;
+}
